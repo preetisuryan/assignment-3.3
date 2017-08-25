@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn{
+background-color:#00FFFF;
+color:white;
+padding:16px;
+}
+.dropdown{
+position:relative;
+display:block;
+}
+.dropdown-content{
+display:none;
+position:absolute;
+z-index:1;
+}
+.dropdown:hover .dropdown-content{
+display:block;
+}
+</style>
+<div class="dropdown">
+<button class="dropbtn">ME</button>
+<div class="dropdown-content">
+<a href="URL">link</a>
+</div>
+</div>
+<p>HEY,here i am</p>
+</body>
+</html>
+
